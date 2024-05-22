@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-audioreactor"
+description = "Nodes: Shadertoy, Load Audio (from Path), Audio Frame Transform (Shadertoy), Audio Frame Transform (Beats)"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["glfw", "PyOpenGL", "librosa"]
+
+[project.urls]
+Repository = "https://github.com/tocubed/ComfyUI-AudioReactor"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-AudioReactor"
+Icon = ""
